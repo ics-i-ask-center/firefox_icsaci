@@ -128,6 +128,7 @@ xdg-utils
 yum -y install mesa-dri-drivers libcanberra-gtk2 libcanberra adwaita-gtk2-theme PackageKit-gtk3-module
 wget https://sites.psu.edu/jpj5196/files/2018/08/Xauth-w1m751.txt
 mv Xauth-w1m751.txt ~/.Xauthority
+yum -y install mc
 
 mkdir -p /storage/home
 mkdir -p /storage/work
